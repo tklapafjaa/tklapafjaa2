@@ -10,45 +10,42 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-color: #f4f4f4;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #ffffff;
         }
-
         .container {
             text-align: center;
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
         }
-
         h1 {
             font-size: 2em;
+            color: #333;
             margin-bottom: 10px;
-            font-weight: bold;
         }
-
         p {
             font-size: 1.2em;
+            color: #666;
             margin-bottom: 20px;
         }
-
-        .btn {
-            padding: 15px 30px;
-            font-size: 1.2em;
-            color: white;
-            background: linear-gradient(to right, #245b2f, #3f7c56);
+        .button {
+            background-color: #4caf50;
             border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background 0.3s ease;
-        }
-
-        .btn:hover {
-            background: linear-gradient(to right, #3f7c56, #245b2f);
-        }
-
-        a {
-            text-decoration: none;
             color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -56,9 +53,7 @@
     <div class="container">
         <h1>Human Verification</h1>
         <p>Verify below to be granted entry</p>
-        <button class="btn">
-            <a href="https://jouw-link-hier.com">Click here</a>
-        </button>
+        <a href="https://your-link-here.com" class="button">Click here</a>
     </div>
 </body>
 </html>
